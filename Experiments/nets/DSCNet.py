@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-https://github.com/YaoleiQi/DSCNet
+Source: https://github.com/YaoleiQi/DSCNet
 """
 import torch
 from torch import nn, cat
