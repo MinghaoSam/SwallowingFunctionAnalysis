@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
+https://github.com/YaoleiQi/DSCNet
+"""
 import torch
 from torch import nn, cat
 from torch.nn.functional import dropout
