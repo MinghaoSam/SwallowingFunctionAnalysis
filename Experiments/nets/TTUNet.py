@@ -1,3 +1,6 @@
+"""
+Our proposed model.
+"""
 import torch.nn as nn
 import torch
 from .TemporalTrans import TemporalTransformer
