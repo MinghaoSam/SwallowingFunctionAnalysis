@@ -12,16 +12,11 @@ import random
 from torch.backends import cudnn
 from Load_Dataset import RandomGenerator,ValGenerator,ImageToImage2D
 
-from nets.ACC_UNet import ACC_UNet
-from nets.MResUNet1 import MultiResUnet
-from nets.SwinUnet import SwinUnet
+
 from nets.UNet_base import UNet_base
-from nets.SMESwinUnet import SMESwinUnet
 from nets.UCTransNet import UCTransNet
 from nets.DSCNet import DSCNet_pro as DSCNet
-from nets.DSC_CTransNet import DSC_CTransNet
 from nets.TTUNet import TTUNet
-from nets.CTTUNet import CTTUNet
 
 from torch.utils.data import DataLoader
 import logging
